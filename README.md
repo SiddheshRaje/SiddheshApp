@@ -34,6 +34,4 @@ downloadable resume.
 
 ## Deploying
 
-Standard Next.js app — deploys as-is to Vercel, Netlify, or any Node host.
-On Vercel: push to a GitHub repo, import it at vercel.com/new, no extra
-config needed.
+
