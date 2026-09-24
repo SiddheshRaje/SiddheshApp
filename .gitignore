@@ -24,10 +24,8 @@
 .DS_Store
 *.pem
 
-# local development files
+# editor settings
 .vscode/
-.claude/
-/CLAUDE.md
 
 # debug
 npm-debug.log*
