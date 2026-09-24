@@ -2,16 +2,8 @@
 
 import { Download, MapPin } from "lucide-react";
 import Clock from "./Clock";
+import NavPopover, { NAV_POPOVER_LABELS } from "./NavPopover";
 import ThemeToggle from "./ThemeToggle";
-
-const links = [
-  { label: "Work", href: "#work" },
-  { label: "Skills", href: "#skills" },
-  { label: "Experience", href: "#experience" },
-  { label: "Credentials", href: "#credentials" },
-  { label: "About", href: "#about" },
-  { label: "Contact", href: "#contact" },
-];
 
 export function AvatarMark({ compact = false }: { compact?: boolean }) {
   return (
@@ -36,11 +28,9 @@ export default function Nav() {
         </a>
 
         <ul className="hidden items-center gap-7 text-[11px] text-muted xl:flex">
-          {links.map((link) => (
-            <li key={link.href}>
-              <a href={link.href} className="transition-colors hover:text-text">
-                {link.label}
-              </a>
+          {NAV_POPOVER_LABELS.map((label) => (
+            <li key={label}>
+              <NavPopover label={label} />
             </li>
           ))}
         </ul>

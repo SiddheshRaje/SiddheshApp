@@ -43,7 +43,7 @@ export default function FeaturedProject({
         <ProjectMeta
           icon={UserRound}
           label="Role"
-          value="Front-end Developer"
+          value="Software Developer"
         />
         <ProjectMeta
           icon={Layers3}
@@ -77,12 +77,12 @@ export default function FeaturedProject({
         <p className="mt-4 text-[10px] text-muted">
           This is a small demo.{" "}
           <a
-            href={`mailto:${profile.email}?subject=${encodeURIComponent(
-              `Portfolio walkthrough: ${project.name}`,
-            )}`}
+            href="https://github.com/SiddheshRaje/EthereumDecentralizedApp"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-1 font-medium text-accent transition-colors hover:text-text"
           >
-            Request a walkthrough
+            Access the Code on Github.
             <ArrowUpRight aria-hidden="true" className="h-3 w-3" />
           </a>
         </p>

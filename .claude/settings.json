@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(pdftoppm -png -r 150 -f 2 -l 2 Resume_fixed.pdf preview_fixed_p2)",
+      "Bash(pdftoppm -png -r 150 -f 1 -l 1 /home/sid/Desktop/Projects/SiddheshApp/public/Siddhesh_Raje_Resume.pdf preview_orig)"
+    ]
+  }
+}

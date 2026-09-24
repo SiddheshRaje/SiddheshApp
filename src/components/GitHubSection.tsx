@@ -30,7 +30,7 @@ export default function GitHubSection() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg bg-text px-4 py-2.5 text-xs font-medium text-panel"
             >
-              View @SiDxxXx
+              View @SiddheshRaje
               <ArrowUpRight aria-hidden="true" className="h-3.5 w-3.5" />
             </a>
             <a
@@ -39,7 +39,7 @@ export default function GitHubSection() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-lg border border-line px-4 py-2.5 text-xs font-medium text-text-soft transition-colors hover:bg-panel-muted"
             >
-              Siddhesh-Raje repo
+              SiddheshApp repo
               <ArrowUpRight aria-hidden="true" className="h-3.5 w-3.5" />
             </a>
           </div>

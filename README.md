@@ -2,7 +2,7 @@
 
 <div align="center">
 
-A modern, responsive portfolio showcasing experience across front-end engineering, blockchain, and artificial intelligence.
+A modern, responsive portfolio showcasing experience across software engineering, blockchain, and artificial intelligence.
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)](https://react.dev/)
@@ -17,7 +17,7 @@ A modern, responsive portfolio showcasing experience across front-end engineerin
 
 This repository contains Siddhesh Raje's personal portfolio, built with the Next.js App Router and TypeScript. It presents professional experience, skills, credentials, location, and featured work through an editorial, data-driven interface.
 
-The site includes an interactive blockchain transaction demo, a cryptocurrency market preview, a responsive world map, light and dark themes, and a downloadable résumé. Portfolio content is centralized in a single typed data module, keeping routine updates separate from presentation code.
+The site includes an interactive Ethereum decentralized app demo, a cryptocurrency market preview, a responsive world map, light and dark themes, and a downloadable resume. Portfolio content is centralized in a single typed data module, keeping routine updates separate from presentation code.
 
 ## Highlights
 
@@ -27,7 +27,7 @@ The site includes an interactive blockchain transaction demo, a cryptocurrency m
 - Interactive location visualization built with D3 Geo and TopoJSON
 - Structured experience, education, certification, and skills sections
 - Self-hosted fonts for consistent rendering and improved privacy
-- Downloadable PDF résumé and direct contact links
+- Downloadable PDF resume and direct contact links
 - Content Security Policy with per-request nonces and hardened HTTP headers
 - Strict TypeScript configuration and ESLint quality checks
 
@@ -60,7 +60,7 @@ flowchart LR
     Page --> Map[Interactive Location]
 
     Work --> Market[Crypto Market Preview]
-    Work --> Chain[Blockchain Transaction Demo]
+    Work --> Chain[Ethereum Decentralized App]
 
     Theme[Theme Preference] <--> Page
 ```
@@ -74,7 +74,7 @@ flowchart TD
     Components --> Server[Next.js rendering]
     Server --> UI[Responsive portfolio]
 
-    PDF[Replace résumé PDF] --> Public[public directory]
+    PDF[Replace resume PDF] --> Public[public directory]
     Public --> UI
 ```
 
@@ -84,7 +84,7 @@ flowchart TD
 SiddheshApp/
 ├── public/
 │   ├── images/                         # Portfolio artwork
-│   └── Siddhesh_Raje_Resume.pdf        # Downloadable résumé
+│   └── Siddhesh_Raje_Resume.pdf        # Downloadable resume
 ├── src/
 │   ├── app/
 │   │   ├── globals.css                 # Theme and application styles
@@ -142,7 +142,7 @@ Portfolio copy is maintained in [`src/data/resume.ts`](src/data/resume.ts). Upda
 - Education and certifications
 - Technical skills and competencies
 
-To update the downloadable résumé, replace [`public/Siddhesh_Raje_Resume.pdf`](public/Siddhesh_Raje_Resume.pdf) while retaining the same filename. Shared portfolio UI belongs in `src/components`, while isolated project implementations belong in `src/projects`.
+To update the downloadable resume, replace [`public/Siddhesh_Raje_Resume.pdf`](public/Siddhesh_Raje_Resume.pdf) while retaining the same filename. Shared portfolio UI belongs in `src/components`, while isolated project implementations belong in `src/projects`.
 
 Theme tokens, responsive layouts, and component styles are defined in [`src/app/globals.css`](src/app/globals.css).
 
@@ -171,12 +171,12 @@ No open-source license is currently included. The source code and portfolio cont
 
 ## Contact
 
-**Siddhesh Raje** — Front-End Developer<br>
+**Siddhesh Raje** — Software Developer<br>
 Mumbai, India
 
 - [Email](mailto:siddhesh.raje28@gmail.com)
 - [LinkedIn](https://linkedin.com/in/siddheshraje28/)
-- [GitHub](https://github.com/SiDxxXx)
+- [GitHub](https://github.com/SiddheshRaje)
 
 ---
 

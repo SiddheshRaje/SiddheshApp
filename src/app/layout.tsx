@@ -10,9 +10,9 @@ import "@fontsource/ibm-plex-mono/500.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Siddhesh Raje — Front-End Developer",
+  title: "Siddhesh Raje — Software Developer",
   description:
-    "Portfolio of Siddhesh Raje, a front-end developer building across blockchain and artificial intelligence.",
+    "Portfolio of Siddhesh Raje, a software developer building across blockchain and artificial intelligence.",
 };
 
 const themeInitScript = `

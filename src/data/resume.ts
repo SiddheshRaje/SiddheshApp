@@ -1,12 +1,12 @@
 export const profile = {
   name: "Siddhesh Raje",
-  role: "Front-End Developer",
+  role: "Software Developer",
   tagline: "Building at the intersection of Blockchain & Artificial Intelligence",
   location: "Mumbai, India",
   email: "siddhesh.raje28@gmail.com",
   linkedin: "https://linkedin.com/in/siddheshraje28/",
-  github: "https://github.com/SiDxxXx",
-  githubRepository: "https://github.com/SiDxxXx/Siddhesh-Raje",
+  github: "https://github.com/SiddheshRaje",
+  githubRepository: "https://github.com/SiddheshRaje/SiddheshApp",
   summary:
     "Over 3 years in blockchain technology, leading cross-functional teams through ambitious solutions—from client requirements to shippable technical systems.",
 };
@@ -84,10 +84,10 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: "Blockchain Transaction App",
+    name: "Ethereum Decentralized App",
     period: "Aug 2021 — Feb 2022",
     stack: ["React.js", "Python", "Vite", "Web3.js", "MetaMask", "Bootstrap 4"],
-    repo: "",
+    repo: "https://github.com/SiddheshRaje/EthereumDecentralizedApp",
     points: [
       "Secure, reliable crypto transactions via MetaMask and Web3.0 integration.",
       "Unique feature that renders transactions as dynamic GIFs for a more engaging record.",

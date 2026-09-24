@@ -6,7 +6,7 @@ shared portfolio code in `src/components`.
 
 ## Projects
 
-- `blockchain-transaction-app/` — Blockchain Transaction App code.
+- `blockchain-transaction-app/` — Ethereum Decentralized App code.
 - `cryptocurrency-tracker/` — Cryptocurrency Tracker code.
 
 Shared components that are used by the main portfolio should remain in

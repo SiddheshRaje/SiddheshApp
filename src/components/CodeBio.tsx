@@ -12,7 +12,7 @@ const lines: Segment[][] = [
   ],
   [
     { text: "  role: " },
-    { text: "'Front-End Developer'", tone: "string" },
+    { text: "'Software Developer'", tone: "string" },
     { text: "," },
   ],
   [{ text: "  workingAt: {" }],
@@ -35,7 +35,7 @@ const lines: Segment[][] = [
   ],
   [
     { text: "  focus: " },
-    { text: "'crafting delightful interfaces'", tone: "string" },
+    { text: "'building dependable software'", tone: "string" },
   ],
   [{ text: "}" }],
 ];

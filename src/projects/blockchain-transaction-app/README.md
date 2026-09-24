@@ -1,6 +1,6 @@
-# Blockchain Transaction App
+# Ethereum Decentralized App
 
-Add the Blockchain Transaction App source files in this folder.
+Add the Ethereum Decentralized App source files in this folder.
 
 Suggested structure as the project grows:
 
