@@ -24,7 +24,7 @@
 .DS_Store
 *.pem
 
-# local editor settings
+# local development files
 .vscode/
 .claude/
 /CLAUDE.md
